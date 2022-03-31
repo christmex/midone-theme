@@ -1,0 +1,24 @@
+{
+    "name": "codein/midone-theme",
+    "description": "Midone Admin Panel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "christmex",
+            "email": "christmex@yahoo.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Codein\\MidoneTheme\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codein\\MidoneTheme\\MidoneThemeServiceProvider"
+            ]
+        }
+    }
+}
